@@ -1,0 +1,88 @@
+body {
+  background-color: rgba(240, 240, 245);
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 0, 0);
+  line-height: 1.4;
+
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 40%;
+  max-width: 40%;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  width: auto;
+}
+
+.card {
+  background-color: white;
+  border: rgba(255, 255, 255, 0.699);
+  border-radius: 5%;
+  box-shadow: rgba(255, 255, 255, 0.349);
+  padding: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.blue-btn {
+  background-color: 1d3557;
+  color: ffffff;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+p {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.img-rounded {
+  border-radius: 20px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: larger;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fa-instagram {
+  color: red;
+}
+
+.fa-twitter {
+  color: gray;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
